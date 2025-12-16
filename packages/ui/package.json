@@ -1,0 +1,28 @@
+{
+  "name": "@example/ui",
+  "version": "1.0.0",
+  "author": "example <example@example.com>",
+  "license": "MIT",
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@example/theme": "1.0.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-keyboard-controller": ">=1.19.5",
+    "react-native-nitro-modules": ">=0.26.2",
+    "react-native-unistyles": ">=3.0.5"
+  },
+  "devDependencies": {
+    "@example/eslint-config": "*",
+    "@example/typescript-config": "*",
+    "typescript": "^5.3.3"
+  },
+  "exports": {
+    ".": "./index.tsx"
+  }
+}

@@ -1,0 +1,7 @@
+{ 
+  "extends": "@example/typescript-config/expo.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { }
+  },
+}

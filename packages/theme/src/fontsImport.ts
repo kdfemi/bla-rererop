@@ -1,0 +1,18 @@
+export const fontsImport = {
+  Sf_Pro_400Regular: require("./assets/fonts/sf-pro/SF-Pro-Display-Regular.ttf"),
+  Sf_Pro_500Medium: require("./assets/fonts/sf-pro/SF-Pro-Display-Medium.ttf"),
+  Sf_Pro_600SemiBold: require("./assets/fonts/sf-pro/SF-Pro-Display-Semibold.ttf"),
+  Sf_Pro_700Bold: require("./assets/fonts/sf-pro/SF-Pro-Display-Bold.ttf"),
+  Geologica_400Regular: require("./assets/fonts/geologica/Geologica-Regular.ttf"),
+  Geologica_500Medium: require("./assets/fonts/geologica/Geologica-Medium.ttf"),
+  Geologica_600SemiBold: require("./assets/fonts/geologica/Geologica-SemiBold.ttf"),
+  Geologica_700Bold: require("./assets/fonts/geologica/Geologica-Bold.ttf"),
+  Inter_400Regular: require("./assets/fonts/inter/Inter-Regular.ttf"),
+  Inter_500Medium: require("./assets/fonts/inter/Inter-Medium.ttf"),
+  Inter_600SemiBold: require("./assets/fonts/inter/Inter-SemiBold.ttf"),
+  Inter_700Bold: require("./assets/fonts/inter/Inter-Bold.ttf"),
+  Poppins_400Regular: require("./assets/fonts/poppins/Poppins-Regular.ttf"),
+  Poppins_500Medium: require("./assets/fonts/poppins/Poppins-Medium.ttf"),
+  Poppins_600SemiBold: require("./assets/fonts/poppins/Poppins-SemiBold.ttf"),
+  Poppins_700Bold: require("./assets/fonts/poppins/Poppins-Bold.ttf"),
+};

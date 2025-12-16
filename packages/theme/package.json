@@ -1,0 +1,25 @@
+{
+  "name": "@example/theme",
+  "version": "1.0.0",
+  "author": "example <example@example.com>",
+  "license": "MIT",
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-nitro-modules": ">=0.26.2",
+    "react-native-unistyles": ">=3.0.5",
+    "react-native-mmkv": ">=3.2.0"
+  },
+  "devDependencies": {
+    "@example/eslint-config": "*",
+    "@example/typescript-config": "*",
+    "typescript": "^5.3.3"
+  },
+  "exports": {
+    ".": "./index.ts"
+  }
+}
