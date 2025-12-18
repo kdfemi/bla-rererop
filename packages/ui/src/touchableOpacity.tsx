@@ -28,4 +28,7 @@ TouchableOpacity.displayName = "TouchableOpacity";
 
 // to force theme to update when the theme changes
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  // this dummy style is needed to not break unistyles
+  // _forceThemeUpdate: {},
+});
