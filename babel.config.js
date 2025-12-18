@@ -4,7 +4,6 @@ module.exports = function (api) {
 
   var unistylesPluginOptions = {
     root: "packages/ui",
-    autoProcessRoot: "src",
     debug: babelEnv !== "production",
     autoProcessImports: ["@example/theme", "@example/ui"],
   };
